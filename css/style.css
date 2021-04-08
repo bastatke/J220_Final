@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* CSS for hero image, either background photo or background video */
 .hero{
-  background-image: url("../assets/sample-images/desk.jpg");
+  background-image: url("../assets/sample-images/desk-1.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -69,8 +69,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -2;
 }
 
-.image-holder{
-  background-image: url(../assets/sample-images/map-1.jpg);
+ .image-holder{
+  background-image: url(../assets/parvan/baby_bottle2.jpg);
   position: absolute;
   width: 100vw;
   height: 100vh;
@@ -82,5 +82,11 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+section cite{
+        margin-top: 20px;
+        font-size: 1.5em;
+        color: #777;
 }
 

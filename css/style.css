@@ -8,30 +8,50 @@ html,body{
 
 /* fonts */
 body{
-	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
-	color: #333;
+	font-family: Magnum Sans, Baskerville, serif;
+	color:  #1D2951;
+    font-size: 25px;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-family: Georgia, "Times New Roman", Times, serif;
+h1, h2, h3, h4{
+	font-family: Magnum Sans, Baskerville, serif;
+    font-size: 70px;
+    font-weight: 150;
+    color:  #6495ED;
+}
+
+h5{
+	font-family: Magnum Sans, Baskerville, serif;
+    font-size: 60px;
+    font-weight: 150;
+    color: lightskyblue;
+}
+
+h6{
+	font-family: Magnum Sans, Baskerville, serif;
+    font-size: 50px;
+    font-weight: 150;
+    color: midnightblue;
 }
 .lead-description{
-	font-family: Georgia, serif;
+	font-family: Magnum Sans, Baskerville, serif;
+    font-size:40px;
 }
 
 
 /* CSS for hero image, either background photo or background video */
 .hero{
-  background-image: url("../assets/sample-images/desk-1.jpg");
+  background-image: url("../assets/SS_Satin-BowerbirdLuke-Shelley_adj2.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
-  color: #ffffff;
+  color:  #6495ED;
   position: relative;
+  font-family: Magnum Sans Pro, Baskerville, serif;
+    
 }
 .hero header{
   background-color:rgba(0,0,0,0.75);
-
 }
 .hero header > *{
   position: relative;
@@ -89,4 +109,33 @@ section cite{
         font-size: 1.5em;
         color: #777;
 }
+
+/* center an image */
+.map{
+    display: block;
+    margin-left: auto;
+}
+
+.group{
+    color : black;
+    font-size : 20px;
+}
+
+.blue{
+    color : darkblue;
+    font-size : 25px;
+}
+
+.scroll_text{
+    color:#2021c2;
+    font-size : 25px;
+    opacity: 0.5;
+    font-family: Colombo, Baskerville, serif;
+}
+
+
+
+
+
+
 
